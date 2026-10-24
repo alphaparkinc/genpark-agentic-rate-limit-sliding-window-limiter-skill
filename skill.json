@@ -1,0 +1,12 @@
+{
+  "name": "genpark-agentic-rate-limit-sliding-window-limiter-skill",
+  "version": "1.0.0",
+  "description": "High-concurrency API rate limiter implementing sliding-window log calculations and exponential backoff retry headers",
+  "author": "GenPark AI Engineering",
+  "license": "MIT",
+  "keywords": ["rate-limiter", "sliding-window", "backoff-jitter", "api-quota", "concurrency-guard", "agent-skills"],
+  "mcp": {
+    "supported": true,
+    "entrypoint": "mcp_server.py"
+  }
+}
